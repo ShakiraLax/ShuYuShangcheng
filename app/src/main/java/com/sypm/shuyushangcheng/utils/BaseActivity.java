@@ -2,8 +2,12 @@ package com.sypm.shuyushangcheng.utils;
 
 import android.content.Context;
 import android.os.Bundle;
+import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
+import android.support.v7.widget.Toolbar;
 import android.view.MenuItem;
+
+import com.sypm.shuyushangcheng.R;
 
 
 public class BaseActivity extends AppCompatActivity {
@@ -16,17 +20,17 @@ public class BaseActivity extends AppCompatActivity {
     @Override
     public void setContentView(int layoutResID) {
         super.setContentView(layoutResID);
-        /*setupToolbar();*/
+        setupToolbar();
     }
 
-    /*private void setupToolbar() {
+    private void setupToolbar() {
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         if (toolbar != null) {
             setSupportActionBar(toolbar);
             ActionBar ab = getSupportActionBar();
             ab.setDisplayHomeAsUpEnabled(true);
         }
-    }*/
+    }
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
