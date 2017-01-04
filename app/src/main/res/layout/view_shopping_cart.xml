@@ -66,6 +66,7 @@
         </LinearLayout>
 
         <TextView
+            android:id="@+id/goShopping"
             android:layout_width="120dp"
             android:layout_height="match_parent"
             android:background="@color/orange"

@@ -30,6 +30,7 @@
         <activity
             android:name=".moudle.login.BindPhoneActivity"
             android:label="绑定手机" />
+        <activity android:name=".moudle.goods.GoodsDetailActivity"></activity>
     </application>
 
 </manifest>
