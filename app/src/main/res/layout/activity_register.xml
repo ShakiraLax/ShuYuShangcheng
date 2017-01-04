@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_register"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.sypm.shuyushangcheng.moudle.login.RegisterActivity">
+
+    <include layout="@layout/view_toolbar_activity" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@android:color/white"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:text="用户名"
+                android:textColor="@android:color/black"
+                android:textSize="17sp" />
+
+            <EditText
+                android:id="@+id/number"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@null"
+                android:gravity="center_vertical"
+                android:hint="用户名即漱玉平民网上商城账号"
+                android:paddingLeft="20dp"
+                android:singleLine="true"
+                android:textSize="17sp" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.1dp"
+            android:background="@color/line" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:text="密码    "
+                android:textColor="@android:color/black"
+                android:textSize="17sp" />
+
+            <EditText
+                android:id="@+id/password"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_weight="1"
+                android:background="@null"
+                android:gravity="center_vertical"
+                android:hint="组合字母、数字或符号"
+                android:inputType="textPassword"
+                android:paddingLeft="20dp"
+                android:singleLine="true"
+                android:textSize="17sp" />
+
+            <Button
+                android:id="@+id/passwordStatus"
+                android:layout_width="28dp"
+                android:layout_height="16dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/reg_pass" />
+        </LinearLayout>
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/line" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/next"
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:layout_margin="14dp"
+        android:layout_marginTop="20dp"
+        android:background="@color/orange"
+        android:text="下一步"
+        android:textColor="@android:color/white"
+        android:textSize="20sp" />
+
+</LinearLayout>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.sypm.shuyushangcheng">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/StartTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".moudle.search.SearchActivity" />
+        <activity
+            android:name=".moudle.login.LoginByPassActivity"
+            android:label="密码登陆" />
+        <activity
+            android:name=".moudle.login.LoginByPhoneActivity"
+            android:label="登陆" />
+        <activity
+            android:name=".moudle.login.RegisterActivity"
+            android:label="注册" />
+        <activity
+            android:name=".moudle.login.BindPhoneActivity"
+            android:label="绑定手机" />
+    </application>
+
+</manifest>
