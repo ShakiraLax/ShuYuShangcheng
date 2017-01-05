@@ -17,11 +17,11 @@ import android.widget.Toast;
 import com.bumptech.glide.Glide;
 import com.jorge.circlelibrary.ImageCycleView;
 import com.sypm.shuyushangcheng.moudle.search.SearchActivity;
-import com.sypm.shuyushangcheng.utils.BaseFragment;
-import com.sypm.shuyushangcheng.utils.BaseListAdapter;
-import com.sypm.shuyushangcheng.utils.HorizontalListView;
-import com.sypm.shuyushangcheng.utils.HorizontalListViewAdapter;
-import com.sypm.shuyushangcheng.utils.NoScrollGridView;
+import com.sypm.shuyushangcheng.base.BaseFragment;
+import com.sypm.shuyushangcheng.adapter.BaseListAdapter;
+import com.sypm.shuyushangcheng.ui.HorizontalListView;
+import com.sypm.shuyushangcheng.adapter.HorizontalListViewAdapter;
+import com.sypm.shuyushangcheng.ui.NoScrollGridView;
 
 import java.util.ArrayList;
 import java.util.List;

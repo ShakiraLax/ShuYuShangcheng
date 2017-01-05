@@ -1,4 +1,4 @@
-package com.sypm.shuyushangcheng.utils;
+package com.sypm.shuyushangcheng.adapter;
 
 import android.content.Context;
 import android.view.LayoutInflater;

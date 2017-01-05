@@ -1,4 +1,4 @@
-package com.sypm.shuyushangcheng.utils;
+package com.sypm.shuyushangcheng.ui;
 
 import android.content.Context;
 import android.util.AttributeSet;
@@ -45,5 +45,10 @@ public class FlexibleScrollView extends ScrollView {
         return super.overScrollBy(deltaX, deltaY, scrollX, scrollY,
                 scrollRangeX, scrollRangeY, maxOverScrollX, mMaxOverDistance,
                 isTouchEvent);
+    }
+
+    @Override
+    protected void onMeasure(int widthMeasureSpec, int heightMeasureSpec) {
+        super.onMeasure(widthMeasureSpec, heightMeasureSpec);
     }
 }

@@ -21,9 +21,9 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.sypm.shuyushangcheng.R;
-import com.sypm.shuyushangcheng.utils.BaseActivity;
-import com.sypm.shuyushangcheng.utils.FlowLayout;
-import com.sypm.shuyushangcheng.utils.SearchListView;
+import com.sypm.shuyushangcheng.base.BaseActivity;
+import com.sypm.shuyushangcheng.ui.FlowLayout;
+import com.sypm.shuyushangcheng.ui.SearchListView;
 
 import java.util.ArrayList;
 import java.util.List;

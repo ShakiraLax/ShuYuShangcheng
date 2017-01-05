@@ -47,7 +47,7 @@
 
                 </LinearLayout>
 
-                <com.sypm.shuyushangcheng.utils.FlowLayout
+                <com.sypm.shuyushangcheng.ui.FlowLayout
                     android:id="@+id/flow_layout"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
@@ -58,7 +58,7 @@
                     app:height_space="10dp"
                     app:width_space="10dp">
 
-                </com.sypm.shuyushangcheng.utils.FlowLayout>
+                </com.sypm.shuyushangcheng.ui.FlowLayout>
 
             </LinearLayout>
 
@@ -97,13 +97,13 @@
 
                 </LinearLayout>
 
-                <com.sypm.shuyushangcheng.utils.SearchListView
+                <com.sypm.shuyushangcheng.ui.SearchListView
                     android:id="@+id/listView"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:divider="@null">
 
-                </com.sypm.shuyushangcheng.utils.SearchListView>
+                </com.sypm.shuyushangcheng.ui.SearchListView>
 
                 <TextView
                     android:id="@+id/tv_clear"

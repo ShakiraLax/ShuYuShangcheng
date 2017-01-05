@@ -1,4 +1,4 @@
-package com.sypm.shuyushangcheng.utils;
+package com.sypm.shuyushangcheng.ui;
 
 /**
  * Created by Administrator on 2017/1/4.

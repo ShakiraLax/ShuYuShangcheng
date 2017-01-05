@@ -5,11 +5,9 @@ import android.view.MotionEvent;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
-import android.widget.ImageView;
-import android.widget.Toast;
 
 import com.sypm.shuyushangcheng.R;
-import com.sypm.shuyushangcheng.utils.BaseActivity;
+import com.sypm.shuyushangcheng.base.BaseActivity;
 
 public class LoginByPassActivity extends BaseActivity {
 

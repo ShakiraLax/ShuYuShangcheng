@@ -1,4 +1,4 @@
-package com.sypm.shuyushangcheng.utils;
+package com.sypm.shuyushangcheng.base;
 
 import android.os.Bundle;
 import android.support.annotation.Nullable;

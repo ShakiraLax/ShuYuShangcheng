@@ -3,7 +3,7 @@ package com.sypm.shuyushangcheng.moudle.login;
 import android.os.Bundle;
 
 import com.sypm.shuyushangcheng.R;
-import com.sypm.shuyushangcheng.utils.BaseActivity;
+import com.sypm.shuyushangcheng.base.BaseActivity;
 
 public class LoginByPhoneActivity extends BaseActivity {
 

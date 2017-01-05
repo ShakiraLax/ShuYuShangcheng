@@ -6,7 +6,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.sypm.shuyushangcheng.utils.BaseFragment;
+import com.sypm.shuyushangcheng.base.BaseFragment;
 
 /**
  * Created by Administrator on 2016/12/5.

@@ -8,7 +8,7 @@ import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.sypm.shuyushangcheng.utils.FragmentManagerActivity;
+import com.sypm.shuyushangcheng.ui.FragmentManagerActivity;
 
 
 public class MainActivity extends FragmentManagerActivity {
