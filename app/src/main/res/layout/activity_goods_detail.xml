@@ -4,11 +4,11 @@
     android:id="@+id/activity_goods_detail"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.sypm.shuyushangcheng.moudle.goods.GoodsDetailActivity">
+    tools:context="com.sypm.shuyushangcheng.moudle.goodsdetail.GoodsDetailActivity">
 
     <include layout="@layout/view_toolbar_activity" />
 
-    <com.sypm.shuyushangcheng.ui.FlexibleScrollView
+    <com.sypm.shuyushangcheng.uiutils.FlexibleScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:fillViewport="true"
@@ -205,13 +205,13 @@
                     android:text="规格："
                     android:textSize="18sp" />
 
-                <com.sypm.shuyushangcheng.ui.GoodsViewGroup
+                <com.sypm.shuyushangcheng.uiutils.GoodsViewGroup
                     android:id="@+id/goodsView"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_vertical">
 
-                </com.sypm.shuyushangcheng.ui.GoodsViewGroup>
+                </com.sypm.shuyushangcheng.uiutils.GoodsViewGroup>
             </LinearLayout>
 
             <android.support.design.widget.TabLayout
@@ -222,16 +222,16 @@
 
             </android.support.design.widget.TabLayout>
 
-            <com.sypm.shuyushangcheng.ui.MyViewPager
+            <com.sypm.shuyushangcheng.uiutils.MyViewPager
                 android:id="@+id/viewPager2"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent">
 
-            </com.sypm.shuyushangcheng.ui.MyViewPager>
+            </com.sypm.shuyushangcheng.uiutils.MyViewPager>
 
         </LinearLayout>
 
-    </com.sypm.shuyushangcheng.ui.FlexibleScrollView>
+    </com.sypm.shuyushangcheng.uiutils.FlexibleScrollView>
 
     <include layout="@layout/view_shopping_cart" />
 

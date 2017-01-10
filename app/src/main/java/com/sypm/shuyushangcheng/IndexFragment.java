@@ -19,9 +19,9 @@ import com.jorge.circlelibrary.ImageCycleView;
 import com.sypm.shuyushangcheng.moudle.search.SearchActivity;
 import com.sypm.shuyushangcheng.base.BaseFragment;
 import com.sypm.shuyushangcheng.adapter.BaseListAdapter;
-import com.sypm.shuyushangcheng.ui.HorizontalListView;
+import com.sypm.shuyushangcheng.uiutils.HorizontalListView;
 import com.sypm.shuyushangcheng.adapter.HorizontalListViewAdapter;
-import com.sypm.shuyushangcheng.ui.NoScrollGridView;
+import com.sypm.shuyushangcheng.uiutils.NoScrollGridView;
 
 import java.util.ArrayList;
 import java.util.List;

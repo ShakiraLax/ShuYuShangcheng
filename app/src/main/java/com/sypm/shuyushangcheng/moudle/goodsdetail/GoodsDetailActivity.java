@@ -1,4 +1,4 @@
-package com.sypm.shuyushangcheng.moudle.goods;
+package com.sypm.shuyushangcheng.moudle.goodsdetail;
 
 import android.graphics.Color;
 import android.os.Bundle;
@@ -15,8 +15,8 @@ import android.widget.Toast;
 
 import com.sypm.shuyushangcheng.R;
 import com.sypm.shuyushangcheng.base.BaseActivity;
-import com.sypm.shuyushangcheng.ui.GoodsViewGroup;
-import com.sypm.shuyushangcheng.ui.MyViewPager;
+import com.sypm.shuyushangcheng.uiutils.GoodsViewGroup;
+import com.sypm.shuyushangcheng.uiutils.MyViewPager;
 
 import java.lang.reflect.Field;
 import java.util.ArrayList;

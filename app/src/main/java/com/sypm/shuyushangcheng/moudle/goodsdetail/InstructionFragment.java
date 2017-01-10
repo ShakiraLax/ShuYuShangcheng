@@ -1,4 +1,4 @@
-package com.sypm.shuyushangcheng.moudle.goods;
+package com.sypm.shuyushangcheng.moudle.goodsdetail;
 
 import android.os.Bundle;
 import android.support.annotation.Nullable;

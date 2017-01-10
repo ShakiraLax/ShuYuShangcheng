@@ -1,12 +1,10 @@
-package com.sypm.shuyushangcheng.ui;
+package com.sypm.shuyushangcheng.base;
 
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentTransaction;
 
-
 import com.sypm.shuyushangcheng.R;
-import com.sypm.shuyushangcheng.base.BaseActivity;
 
 import java.util.List;
 

@@ -1,4 +1,4 @@
-package com.sypm.shuyushangcheng.ui;
+package com.sypm.shuyushangcheng.uiutils;
 
 import android.content.Context;
 import android.support.v4.view.ViewPager;
