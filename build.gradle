@@ -16,6 +16,8 @@ buildscript {
 allprojects {
     repositories {
         jcenter()
+        //CookieJar
+        maven { url "https://jitpack.io" }
     }
 }
 

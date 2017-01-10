@@ -1,4 +1,4 @@
-package com.sypm.shuyushangcheng;
+package com.sypm.shuyushangcheng.main;
 
 import android.os.Bundle;
 import android.support.design.widget.TabLayout;
@@ -8,6 +8,7 @@ import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.sypm.shuyushangcheng.R;
 import com.sypm.shuyushangcheng.base.FragmentManagerActivity;
 
 

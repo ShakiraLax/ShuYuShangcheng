@@ -1,4 +1,4 @@
-package com.sypm.shuyushangcheng;
+package com.sypm.shuyushangcheng.main;
 
 import android.content.Context;
 import android.content.Intent;
@@ -16,6 +16,7 @@ import android.widget.Toast;
 
 import com.bumptech.glide.Glide;
 import com.jorge.circlelibrary.ImageCycleView;
+import com.sypm.shuyushangcheng.R;
 import com.sypm.shuyushangcheng.moudle.search.SearchActivity;
 import com.sypm.shuyushangcheng.base.BaseFragment;
 import com.sypm.shuyushangcheng.adapter.BaseListAdapter;

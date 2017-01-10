@@ -1,4 +1,4 @@
-package com.sypm.shuyushangcheng;
+package com.sypm.shuyushangcheng.main;
 
 import android.os.Bundle;
 import android.support.annotation.Nullable;
@@ -6,6 +6,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
+import com.sypm.shuyushangcheng.R;
 import com.sypm.shuyushangcheng.base.BaseFragment;
 
 /**
