@@ -34,6 +34,12 @@ android {
     dataBinding {
         enabled = true
     }
+    //地图显示必需
+    sourceSets {
+        main {
+            jniLibs.srcDirs = ['libs']
+        }
+    }
 }
 
 dependencies {
@@ -55,4 +61,6 @@ dependencies {
     compile 'com.github.franmontiel:PersistentCookieJar:v0.9.3'//(okhttp)PersistentCookieJar
     compile 'com.tumblr:remember:1.0.0@aar'//数据保存
     compile 'com.github.mcxtzhang:AnimShopButton:V1.0.0'//加入购物车旋转控件
+    compile files('libs/AMap3DMap_4.1.3_AMapNavi_1.9.4_AMapSearch_3.6.1_AMapLocation_3.2.1_20161228.jar')//高德地图
+    compile 'com.github.mcxtzhang:SuspensionIndexBar:V1.0.0'//导航悬停分组索引列表
 }
