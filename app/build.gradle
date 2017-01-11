@@ -12,10 +12,22 @@ android {
         versionName "1.0"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
     }
+    signingConfigs {
+        config {
+            keyAlias 'zhangxinyan'
+            keyPassword '113802'
+            storeFile file('D:\\key\\ShuYuShangCheng.jks')
+            storePassword '113802'
+        }
+    }
     buildTypes {
         release {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            signingConfig signingConfigs.config
+        }
+        debug {
+            signingConfig signingConfigs.config
         }
     }
     //数据绑定

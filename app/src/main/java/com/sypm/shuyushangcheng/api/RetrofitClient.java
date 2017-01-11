@@ -23,6 +23,7 @@ public class RetrofitClient {
     public static String HOST = FORMAL_HOST;
 
     private RetrofitClient() {
+        //拦截器
         HttpLoggingInterceptor httpLoggingInterceptor = new HttpLoggingInterceptor();
         httpLoggingInterceptor.setLevel(HttpLoggingInterceptor.Level.BODY);
 
@@ -31,9 +32,9 @@ public class RetrofitClient {
                 .sslSocketFactory(HttpsHelper.getSSLSocketFactory())
                 .hostnameVerifier(HttpsHelper.getHostnameVerifier())
                 .cookieJar(Injection.provideCookieJar())
-                .connectTimeout(4, TimeUnit.SECONDS)
-                .retryOnConnectionFailure(true)
-                .addInterceptor(httpLoggingInterceptor)
+                .connectTimeout(4, TimeUnit.SECONDS)//设置超时时间
+                .retryOnConnectionFailure(true)//设置出现错误进行重新连接
+                .addInterceptor(httpLoggingInterceptor)//让所有网络请求都附上拦截器
                 .build();
         retrofit = new Retrofit.Builder()
                 .client(okHttpClient)
