@@ -34,7 +34,7 @@ android {
     dataBinding {
         enabled = true
     }
-    //地图显示必需
+    //地图显示必需（so文件）
     sourceSets {
         main {
             jniLibs.srcDirs = ['libs']

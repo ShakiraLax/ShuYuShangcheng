@@ -122,7 +122,7 @@ public class MapAddressActivity extends BaseActivity implements LocationSource, 
             } else {
                 //显示错误信息ErrCode是错误码，errInfo是错误信息，详见错误码表。
                 Log.e("AmapError", "location Error, ErrCode:" + amapLocation.getErrorCode() + ", errInfo:" + amapLocation.getErrorInfo());
-                Toast.makeText(getApplicationContext(), "定位失败", Toast.LENGTH_LONG).show();
+                /*Toast.makeText(getApplicationContext(), "定位失败", Toast.LENGTH_LONG).show();*/
             }
         }
     }
