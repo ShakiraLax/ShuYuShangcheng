@@ -10,7 +10,7 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/StartTheme">
-        <activity android:name=".main.MainActivity">
+        <activity android:name=".moudle.goodsdetail.GoodsDetailActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -30,10 +30,11 @@
         <activity
             android:name=".moudle.login.BindPhoneActivity"
             android:label="绑定手机" />
-        <activity android:name=".moudle.goodsdetail.GoodsDetailActivity" />
+        <!-- <activity android:name=".moudle.goodsdetail.GoodsDetailActivity" /> -->
         <activity android:name=".moudle.address.ModifyAddressActivity" />
         <activity android:name=".moudle.scan.ScanActivity" />
-        <activity android:name=".moudle.scan.ScanFailActivity"></activity>
+        <activity android:name=".moudle.scan.ScanFailActivity" />
+        <activity android:name=".moudle.classify.SearchResultActivity"></activity>
     </application>
 
 </manifest>
