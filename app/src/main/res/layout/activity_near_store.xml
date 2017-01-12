@@ -16,7 +16,7 @@
 
     </com.amap.api.maps.MapView>
 
-    <!--item_map_address.xml-->
+    <!--item_near_address.xml-->
     <ListView
         android:id="@+id/listView"
         android:layout_width="match_parent"

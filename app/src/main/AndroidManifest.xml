@@ -71,7 +71,7 @@
             android:label="扫码购物" />
         <activity android:name=".moudle.classify.SearchResultActivity" />
 
-        <!-- 高德 -->
+        <!-- 高德地图 -->
         <!-- 设置key -->
         <meta-data
             android:name="com.amap.api.v2.apikey"
@@ -82,7 +82,9 @@
         <activity
             android:name=".moudle.address.MapAddressActivity"
             android:label="确定收货地址" />
-        <activity android:name=".moudle.nearstore.NearStoreActivity"></activity>
+        <activity
+            android:name=".moudle.nearstore.NearStoreActivity"
+            android:label="身边药店" />
     </application>
 
 </manifest>

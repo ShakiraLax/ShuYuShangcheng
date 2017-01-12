@@ -6,7 +6,7 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="170dp"
+        android:layout_height="180dp"
         android:background="@color/orange"
         android:orientation="vertical">
 
@@ -15,14 +15,14 @@
             android:layout_height="wrap_content"
             android:layout_gravity="right"
             android:paddingRight="20dp"
-            android:paddingTop="10dp"
+            android:paddingTop="5dp"
             android:text="设置"
             android:textColor="@android:color/white"
             android:textSize="18sp" />
 
         <ImageView
-            android:layout_width="80dp"
-            android:layout_height="80dp"
+            android:layout_width="78dp"
+            android:layout_height="78dp"
             android:layout_gravity="center"
             android:background="@drawable/icon" />
 
@@ -34,7 +34,7 @@
             android:layout_marginTop="10dp"
             android:text="KC87263487"
             android:textColor="@android:color/white"
-            android:textSize="18sp" />
+            android:textSize="19sp" />
 
         <TextView
             android:id="@+id/number"
@@ -43,7 +43,8 @@
             android:layout_gravity="center"
             android:text="可用积分"
             android:textColor="@android:color/white"
-            android:textSize="14sp" />
+            android:textSize="12sp" />
+
     </LinearLayout>
 
     <LinearLayout
@@ -62,10 +63,10 @@
                 android:layout_weight="1">
 
                 <LinearLayout
-                    android:layout_width="30dp"
-                    android:layout_height="30dp"
+                    android:layout_width="26dp"
+                    android:layout_height="26dp"
                     android:layout_gravity="center"
-                    android:background="@drawable/t_icon2"
+                    android:background="@drawable/x13"
                     android:gravity="right">
 
                     <TextView
@@ -94,10 +95,10 @@
                 android:layout_weight="1">
 
                 <LinearLayout
-                    android:layout_width="30dp"
-                    android:layout_height="30dp"
+                    android:layout_width="26dp"
+                    android:layout_height="26dp"
                     android:layout_gravity="center"
-                    android:background="@drawable/t_icon3"
+                    android:background="@drawable/x23"
                     android:gravity="right">
 
                     <TextView
@@ -126,10 +127,10 @@
                 android:layout_weight="1">
 
                 <LinearLayout
-                    android:layout_width="30dp"
-                    android:layout_height="30dp"
+                    android:layout_width="26dp"
+                    android:layout_height="26dp"
                     android:layout_gravity="center"
-                    android:background="@drawable/ziti"
+                    android:background="@drawable/x33"
                     android:gravity="right">
 
                     <TextView
@@ -157,10 +158,10 @@
                 android:layout_weight="1">
 
                 <LinearLayout
-                    android:layout_width="30dp"
-                    android:layout_height="30dp"
+                    android:layout_width="26dp"
+                    android:layout_height="26dp"
                     android:layout_gravity="center"
-                    android:background="@drawable/t_icon4"
+                    android:background="@drawable/x43"
                     android:gravity="right">
 
                     <TextView
@@ -183,6 +184,7 @@
                     android:text="待评价"
                     android:textSize="16dp" />
             </FrameLayout>
+
         </LinearLayout>
 
         <View
@@ -254,9 +256,9 @@
                         android:orientation="vertical">
 
                         <ImageView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:src="@drawable/t_item1" />
+                            android:layout_width="26dp"
+                            android:layout_height="26dp"
+                            android:src="@drawable/my13x" />
 
                         <TextView
                             android:id="@+id/textView2"
@@ -276,9 +278,10 @@
                         android:orientation="vertical">
 
                         <ImageView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:src="@drawable/t_item2" />
+                            android:id="@+id/imageView"
+                            android:layout_width="26dp"
+                            android:layout_height="26dp"
+                            android:src="@drawable/my23x" />
 
                         <TextView
                             android:layout_width="wrap_content"
@@ -297,9 +300,9 @@
                         android:orientation="vertical">
 
                         <ImageView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:src="@drawable/t_item3" />
+                            android:layout_width="26dp"
+                            android:layout_height="26dp"
+                            android:src="@drawable/my33x" />
 
                         <TextView
                             android:layout_width="wrap_content"
@@ -325,9 +328,9 @@
                         android:orientation="vertical">
 
                         <ImageView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:src="@drawable/t_item4" />
+                            android:layout_width="26dp"
+                            android:layout_height="26dp"
+                            android:src="@drawable/my43x" />
 
                         <TextView
                             android:layout_width="wrap_content"
@@ -346,9 +349,9 @@
                         android:orientation="vertical">
 
                         <ImageView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:src="@drawable/t_item5" />
+                            android:layout_width="26dp"
+                            android:layout_height="26dp"
+                            android:src="@drawable/my53x" />
 
                         <TextView
                             android:layout_width="wrap_content"
@@ -367,9 +370,9 @@
                         android:orientation="vertical">
 
                         <ImageView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:src="@drawable/t_item6" />
+                            android:layout_width="26dp"
+                            android:layout_height="26dp"
+                            android:src="@drawable/my63x" />
 
                         <TextView
                             android:layout_width="wrap_content"
@@ -379,6 +382,7 @@
                             android:textSize="18sp" />
 
                     </LinearLayout>
+
                 </LinearLayout>
 
             </LinearLayout>
