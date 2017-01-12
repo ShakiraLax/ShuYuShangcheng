@@ -13,7 +13,8 @@
         android:id="@+id/modifyPass"
         android:layout_width="match_parent"
         android:layout_height="60dp"
-        android:background="@android:color/white">
+        android:background="@android:color/white"
+        android:clickable="true">
 
         <ImageView
             android:layout_width="20dp"
@@ -51,7 +52,8 @@
         android:id="@+id/suggestion"
         android:layout_width="match_parent"
         android:layout_height="60dp"
-        android:background="@android:color/white">
+        android:background="@android:color/white"
+        android:clickable="true">
 
         <ImageView
             android:layout_width="20dp"
@@ -89,7 +91,8 @@
         android:id="@+id/update"
         android:layout_width="match_parent"
         android:layout_height="60dp"
-        android:background="@android:color/white">
+        android:background="@android:color/white"
+        android:clickable="true">
 
         <ImageView
             android:layout_width="20dp"
@@ -135,7 +138,8 @@
         android:id="@+id/exit"
         android:layout_width="match_parent"
         android:layout_height="60dp"
-        android:background="@android:color/white">
+        android:background="@android:color/white"
+        android:clickable="true">
 
         <ImageView
             android:layout_width="20dp"

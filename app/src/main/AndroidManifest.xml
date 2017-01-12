@@ -88,7 +88,9 @@
         <activity
             android:name=".moudle.my.MyPointsActivity"
             android:label="积分账户" />
-        <activity android:name=".moudle.my.SettingActivity"></activity>
+        <activity
+            android:name=".moudle.my.SettingActivity"
+            android:label="设置" />
     </application>
 
 </manifest>

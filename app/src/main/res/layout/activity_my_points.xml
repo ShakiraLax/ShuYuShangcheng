@@ -37,7 +37,6 @@
             android:layout_width="80dp"
             android:layout_height="30dp"
             android:background="@drawable/mvp_bg"
-            android:la="right"
             android:text="积分商城"
             android:textColor="@android:color/white"
             android:textSize="16sp" />
