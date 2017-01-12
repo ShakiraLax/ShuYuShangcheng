@@ -85,6 +85,9 @@
         <activity
             android:name=".moudle.nearstore.NearStoreActivity"
             android:label="身边药店" />
+        <activity
+            android:name=".moudle.my.MyPointsActivity"
+            android:label="积分账户" />
     </application>
 
 </manifest>
