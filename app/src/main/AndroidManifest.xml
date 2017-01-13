@@ -91,7 +91,12 @@
         <activity
             android:name=".moudle.my.SettingActivity"
             android:label="设置" />
-        <activity android:name=".moudle.coupon.ReceiveCouponActivity"></activity>
+        <activity
+            android:name=".moudle.coupon.ReceiveCouponActivity"
+            android:label="领券中心" />
+        <activity
+            android:name=".moudle.coupon.MyCouponActivity"
+            android:label="我的优惠券" />
     </application>
 
 </manifest>
