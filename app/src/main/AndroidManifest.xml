@@ -97,6 +97,9 @@
         <activity
             android:name=".moudle.coupon.MyCouponActivity"
             android:label="我的优惠券" />
+        <activity
+            android:name=".moudle.shoppingcart.OrderSettlementActivity"
+            android:label="订单结算" />
     </application>
 
 </manifest>
